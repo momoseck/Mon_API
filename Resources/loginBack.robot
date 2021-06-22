@@ -3,6 +3,7 @@ Library  SeleniumLibrary
 Library  RequestsLibrary
 Library  DatabaseLibrary
 Resource  variables.robot
+
 *** Keywords ***
 verifier que l'utilisateur exist dans la BD
     Connect To Database Using Custom Params  pymysql  database='demo', user='root', password='', host='localhost'
